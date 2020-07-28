@@ -1,18 +1,18 @@
-import { CssBaseline } from '@material-ui/core'
-import { createMuiTheme } from '@material-ui/core/styles'
-import { ThemeProvider } from '@material-ui/styles'
 import React from 'react'
 
 function App() {
     return (
-        <ThemeProvider
-            theme={createMuiTheme({ typography: { fontFamily: '"Poppins", sans-serif' } })}
-        >
-            <CssBaseline/>
-            <div>
-                Hello World!
-            </div>
-        </ThemeProvider>
+        <div style={{
+            padding: 64,
+            border: '1px solid #ccc',
+            position: 'absolute',
+            left: 0,
+            right: 0,
+            top: 0,
+            bottom: 0
+        }}>
+            Hello World!
+        </div>
     )
 }
 
