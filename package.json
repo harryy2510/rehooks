@@ -25,7 +25,7 @@
         ]
     },
     "dependencies": {
-        "lodash-es": "^4.17.15",
+        "lodash-es": "^4.17.21",
         "react": "^16.13.1",
         "react-dom": "^16.13.1",
         "store": "^2.0.12"
